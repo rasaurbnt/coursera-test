@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Rule</title>
+    <style>
+        p {
+            color: blue;
+            font-size: 20px;
+            width: 200px;
+        }
+        h1 {
+            color: #db1bb5;
+            font-size: 40px;
+            text-align: center;
+        }
+        p.blue {color: rgb(0, 248, 95);}
+        #name {color: hotpink;}
+        div, .blue {color:rgb(255, 73, 7)}
+        #red {color: mediumaquamarine; font-weight: bold;}
+        h1, h2 {text-align: center; background-color: rgb(0, 13, 255);}
+        article > p {font-style: italic;}
+        .blue
+    </style>
+</head>
+<body>
+  <h1>Anatomy of CSS Rule</h1>  
+  <h2>How does it look</h2>
+  <p>
+    Now, as I told you, a CSS rule can consist of several declarations. For example, in this case we're specifying the contents of the paragraph tags in our HTML page should have a particular color, a particular font size, and also be a particular width, meaning the paragraph itself, the content, should take up 200 pixels.
+</p>
+  <h2>CLASS Selector. class="blure"-> .blue</h2>
+  <p class="blue"> 
+    o kas jei rsyviau cia is karto irt be tarpju  kas jei rsyviau cia is karto irt be tarpju 
+</p>
+<p>
+    <h2> ID Selector. id="name" -> "#name"</h2>
+    <div id="name">id="name" tada #name</div>
+    <div class="blue"> bet koks div</div>
+</p>
+<p> 
+    <h1>Grouping selectors</h1>
+    <Div> div, .blue <- sugrupuota 
+        <span id="red">texto blokas</span>
+    </div>
+</p>
+<h1> child Selector</h1>
+<article>article > p {... 
+    <p>tiesioginis vaikas</p>
+</article>
+<article> article p {... 
+    <div>kazkas <p>netiesioginis vaikas=visi</p></div>
+</article>
+    <p>netiesioginis vaikas=visi</p>
+</body>
+</html>
