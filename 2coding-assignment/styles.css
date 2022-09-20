@@ -1,0 +1,72 @@
+<style> 
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  div {
+    background-color: #00FFFF;
+    position:relative;
+    float: left;
+  }
+  p {
+    border: 2px solid black;
+    background-color: #a2b4b5;
+    font-family: Helvetica;
+    float: left;
+    margin: 15px;
+    padding: 15px;
+    padding-top: 45px;
+  
+  }
+  #p1, #p3, #p5{
+    background-color: rgb(208, 135, 155);
+    line-height: 30px;
+    height: 30px;
+    width: 120px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    padding: 0;
+    top: 0px;
+    right: 0px;
+
+  }
+  #p3 {
+    background-color: rgb(161, 77, 77);
+    color: white;
+  }
+  #p5 {
+    background-color: rgb(243, 226, 132);
+    
+  }
+  /* Simple Responsive Framework. */
+  .row {width: 100%;}
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .row {width: 33.3%;
+    float: left;}
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width:768px) and (max-width: 991px) {
+    .row {width: 50%;}
+    .row3 {width: 100%;
+    float: left;}
+  }
+
+  ********** SMall devices only **********/
+  
+  @media (max-width: 767px) {
+    .row {width: 100%;
+    float: left;}
+  }
+  </style>
